@@ -1,0 +1,179 @@
+html{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+#art1{
+  height: 550px;
+}
+
+#contenedor{
+  margin: 0;
+  padding: 0;
+}
+
+#banner{
+  width: 100%;
+  height: 100%;
+}
+
+#barlogin{
+  background: #fff;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+  z-index: 1;
+}
+
+#barlogin a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: gray;
+  padding: 15px;
+}
+
+#barlogin a:hover{
+  color: #1895F6;
+  border-bottom: 4px solid #3E67FF;
+}
+
+#formLogin{
+  text-align: left;
+  margin-top: 10px;
+  width: 90%;
+  height: 350px;
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px gray;
+}
+
+#formLogin input, button, p{
+  margin-left: 100px;
+}
+
+#formLogin input{
+  font-size: 15px;
+  width: 40%;
+  padding: 5px 0px;
+  margin-bottom: 15px;  
+  border: 1px solid #EDEDED;
+  border-radius: 3px; 
+}
+
+#formLogin button{
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+#formLogin input:focus{
+  border-color: #63BCDD;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #F1F1F1;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: #B2B2B2;
+}
+
+#secusuario{
+  margin: 0;
+  height: 220px;
+  background-color: #fff;
+}
+
+#tweet{
+  border: 1px solid #78D4FF; 
+  height: 30px;
+  border-radius: 10px; 
+  width: 85%; 
+  float: left;" 
+}
+
+#ctweet{
+  float: left; 
+  width: 100%; 
+  background-color: #D7E7FF; 
+  padding: 10px;
+  display: none;
+}
+
+#comentario{
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+
+#tweet:focus{
+  height: 50px;
+}
+
+#secanuncios{
+  margin: 0;
+  background-color: #fff;
+}
+
+#secaseguir{
+  margin: 0;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+#fimg{
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  margin-top: -38px;
+  margin-left: 58px;
+  z-index: 1;
+}
+
+#fimg:hover{
+  cursor: pointer;
+}
+
+#vt{
+  margin-left: 40px;
+}
+
+#mc{
+  text-decoration: none;
+}
+
+#mc:hover{
+  cursor: pointer;
+}
+
+#v{
+  padding: 10px 20px;
+}
+
+#v{
+  color: gray;
+  text-decoration: none;
+}
+
+#v:hover{
+  cursor: pointer;
+  border-bottom: 3px solid #7FBAE8;
+}
