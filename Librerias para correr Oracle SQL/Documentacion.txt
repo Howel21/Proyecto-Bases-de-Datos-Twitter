@@ -1,0 +1,11 @@
+****************Instalar Oracle SQL*************
+1. Instalar Oracle 11g
+2. xamp
+3. Descargar installclient (Depende de la arquitectura de php)
+   https://www.oracle.com/technetwork/topics/winx64soft-089540.html
+4. Descargar https://pecl.php.net/package/oci8 paquete segun arquitectura y version de php	
+   ejemplo : (7.3 Non Thread Safe (NTS) x64)
+5. Agregar PATH de installclient (Colocar en el disco c)
+6. Reiniciar maquina 
+7. Correr Apache
+
